@@ -1,0 +1,7 @@
+.project
+.texlipse
+tmp
+out
+*.synctex.gz
+/widerspruch.aux
+/widerspruch.log

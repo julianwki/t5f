@@ -1,0 +1,72 @@
+\documentclass[DIN, 
+%	pagenumber=false, 
+	parskip=half, 
+	fromalign=left, 
+	fromphone=false, 
+	fromfax=false,
+	fromemail=true, 
+	fromurl=false, 
+	fromlogo=false, 
+	fromrule=true, 
+	foldmarks=false, 
+%	addrfield=false,
+%	backaddress=false,
+%	fontsize=14,
+]{scrlttr2}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{textcomp}
+\RequirePackage{graphicx}
+
+\setkomavar{fromname}{Max Mustermann}
+\setkomavar{fromaddress}{Musterstraße 123\\12345~Musterstadt}
+\setkomavar{fromphone}{0123-456789}
+\setkomavar{fromemail}{max.mustermann@example.org}
+\setkomavar{fromurl}{www.example.org}
+\setkomavar{signature}{Max Mustermann}
+\setkomavar{subject}[]{Widerruf der Genehmigung zur Speicherung meiner Daten für werbliche Zwecke}
+
+\renewcommand{\familydefault}{\sfdefault} 
+
+\begin{document}
+
+\begin{letter}{
+Datenkrake Gmbh  \& Co.KG\\
+Datenschutzbeauftragter\\
+54321 Datenkrankenhausen\\
+}
+
+\opening{Sehr geehrte Damen und Herren,}
+
+hiermit widerspreche ich der Nutzung meiner persönlichen Daten zu jeglichen werblichen Zwecken.
+
+Folgende Aufforderungen gemäß Bundesdatenschutzgesetz (BDSG) betreffen sämtliche
+
+über meine Person gespeicherten Daten, die Sie anhand meiner oben genannten Adresse identifizieren können. Gemäß Bundesdatenschutzgesetz (BDSG) fordere ich Sie hiermit auf:
+
+\begin{enumerate}
+	\item{Sie haben mir gegenüber unverzüglich offen zulegen, welche Daten außer
+	den oben aufgeführten Adressen Sie über meine durch diesen Namen und/oder diese Adresse identifizierte Person gespeichert haben, und aus welchen Quellen sämtliche mich betreffenden Daten stammen.\\
+	\emph{\S6~Abs.~2, \S28~Abs.~4, \S34~Abs.~1--3 BDSG}}
+	\item{Sie haben den Verwendungszweck sämtlicher mich betreffenden Daten ebenfalls unverzüglich mir gegenüber offen zulegen.\\	
+	\emph{\S34~Abs.~1, \S43~Abs.~3 BDSG}}
+	\item{Sie haben \emph{sämtliche} meine Person und meine Adresse betreffenden Daten unverzüglich zu sperren und mir diese Sperrung zu bestätigen.\\ 
+	\emph{\S28~Abs.~4, \S30~Abs.~3, \S43~Abs.~3, ferner \S4~Abs.~1 BDSG}}
+	\item{Ich untersage Ihnen jedwede zukünftige Speicherung meine Person bzw. meine Adressen betreffenden Daten ohne meine vorherige ausdrückliche schriftliche Genehmigung.\\	
+	\emph{\S28~Abs.~4, \S4~Abs.~1--2 BDSG}}
+	\item{Ich untersage Ihnen die Übermittlung dieser Daten an Dritte. Für bereits an Dritte übermittelte Daten fordere ich eine unverzügliche Sperrung.\\ 
+	\emph{\S6~Abs.~2, \S28~Abs.~4 BDSG}}
+\end{enumerate}
+
+Ich setze Ihnen zur Erfüllung dieser Forderung eine Frist von zwei Wochen beginnend mit dem Datum dieses Schreibens.
+
+Für die aus diesem Schreiben resultierende, selbstverständlich ausdrücklich
+erwünschte schriftliche Kommunikation benutzen Sie bitte ausschließlich meine
+oben genannte Postadresse. Ich bedanke mich für Ihre Kooperation.
+
+\closing{Mit freundlichen Grüßen,}
+
+\end{letter}
+
+\end{document}
