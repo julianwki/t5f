@@ -20,7 +20,7 @@ Die ursprünglichen Urheber dieses Dokuments sind <em>Andreas Koppenhöfer</em>,
 
 <a href="http://www.schnappmatik.de/TFFFFF/">http://www.schnappmatik.de/TFFFFF/</a>
 
-Ich habe nur den Text übernommen und in LaTeX-Quelltext gegossen.
+Ich habe nur den Text übernommen, ein wenig auf meine Bedürfnisse angepasst und in verschiedene Dokumente gegossen.
 
 
 DISCLAIMER
